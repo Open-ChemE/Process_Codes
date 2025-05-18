@@ -21,7 +21,7 @@ try:
         if value == 0.0:
             st.write("Not Available")
         else:
-            st.success(f'Internal Diameter at NB : "{nominal_dia}" and SCH : "{column}" is {value}')
+            st.success(f'Internal Diameter for NB : "{nominal_dia}" and SCH : "{column}" is {value}')
             st.write("ID : ", value)
     else:
         st.error("No matching row found.")
